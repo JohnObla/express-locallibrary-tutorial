@@ -7,7 +7,7 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
-var wiki = require('.wiki.js');
+var wiki = require('./routes/wiki');
 
 //Import the mongoose module
 var mongoose = require('mongoose');
